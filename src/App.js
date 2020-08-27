@@ -1,12 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navigation from './containers/Layout';
+import Layout from './containers/Layout';
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <Layout />
+      <h1>Test page</h1>
     </div>
   );
 }
