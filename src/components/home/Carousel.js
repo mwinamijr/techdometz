@@ -1,10 +1,10 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
 "mdbreact";
 
 const Carousel = () => {
   return (
-    <MDBContainer>
+    <div>
       <MDBCarousel
         activeItem={1}
         length={3}
@@ -42,7 +42,7 @@ const Carousel = () => {
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>
-    </MDBContainer>
+    </div>
   );
 }
 
