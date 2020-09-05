@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBView, MDBIcon } from 'mdbreact';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 
 const Team = () => {
   return (
@@ -35,8 +35,11 @@ const Team = () => {
                 <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
               </MDBBtn>
 
-              <MDBBtn rounded floating color='dribbble'>
-                <MDBIcon size='lg' fab icon='dribbble'></MDBIcon>
+              <MDBBtn rounded floating color='ins'>
+                <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
+              </MDBBtn>
+              <MDBBtn rounded floating color='git'>
+                <MDBIcon size='lg' fab icon='github'></MDBIcon>
               </MDBBtn>
             </MDBCol>
           </MDBCardBody>
@@ -73,14 +76,17 @@ const Team = () => {
                 <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
               </MDBBtn>
 
-              <MDBBtn rounded floating color='dribbble'>
-                <MDBIcon size='lg' fab icon='dribbble'></MDBIcon>
+              <MDBBtn rounded floating color='ins'>
+                <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
+              </MDBBtn>
+              <MDBBtn rounded floating color='git'>
+                <MDBIcon size='lg' fab icon='github'></MDBIcon>
               </MDBBtn>
             </MDBCol>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-      
+
       <MDBCol md='4'>
         <MDBCard>
           <MDBCardImage
@@ -112,8 +118,11 @@ const Team = () => {
                 <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
               </MDBBtn>
 
-              <MDBBtn rounded floating color='dribbble'>
-                <MDBIcon size='lg' fab icon='dribbble'></MDBIcon>
+              <MDBBtn rounded floating color='ins'>
+                <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
+              </MDBBtn>
+              <MDBBtn rounded floating color='git'>
+                <MDBIcon size='lg' fab icon='github'></MDBIcon>
               </MDBBtn>
             </MDBCol>
           </MDBCardBody>
