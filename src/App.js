@@ -1,17 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import Layout from './containers/Layout';
-import Home from './containers/HomePage';
+import BaseRouter from "./routes";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Layout> 
-        	<Home />
-        </Layout>
-      </div>
-    </div>
+  	<Router>
+	    <div className="App">
+	      <div className="container">
+	        <Layout> 
+	        	<BaseRouter />
+	        </Layout>
+	      </div>
+	    </div>
+	  </Router>
   );
 }
 
