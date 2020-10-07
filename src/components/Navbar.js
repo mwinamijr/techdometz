@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 class NavbarPage extends Component {
@@ -15,20 +15,25 @@ render() {
   return (
     <Router>
       <div>
-        <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="/">Tech Dome</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#features">Services</Nav.Link>
-          <Nav.Link href="#features">Developers</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-        </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
-        </Form>
-      </Navbar>
+      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+          <Navbar.Brand href="/">Tech Dome</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#features">Services</Nav.Link>
+            <Nav.Link href="#features">Developers</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                Dank memes
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
       </div>
     </Router>
