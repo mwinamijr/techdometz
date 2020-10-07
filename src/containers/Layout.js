@@ -1,14 +1,13 @@
 import React from 'react';
 import NavbarPage from '../components/Navbar';
 import FooterPage from '../components/Footer';
-import Home from './HomePage';
 
 
-const Layout = () =>{
+const Layout = (props) =>{
     return(
         <div className="mt-4">
             <NavbarPage />
-            <Home />
+            { props.children }
             <FooterPage />
         </div>
     )
