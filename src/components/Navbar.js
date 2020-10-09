@@ -29,22 +29,22 @@ render() {
             <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <div>
-            <a href="#!" className="fb-ic mr-3 black-text">
+            <a href="https://facebook.com/techdome1" target="_blank" rel="noopener noreferrer" className="fb-ic mr-3 black-text">
               <MDBIcon fab icon="facebook-f" />
             </a>
-            <a href="#!" className="tw-ic mr-3 black-text">
+            <a href="https://twitter.com/techdome1" target="_blank" rel="noopener noreferrer" className="tw-ic mr-3 black-text">
               <MDBIcon fab icon="twitter" />
             </a>
             <a href="#!" className="li-ic mr-3 black-text">
               <MDBIcon fab icon="linkedin-in" />
             </a>
-            <a href="#!" className="ins-ic mr-3 black-text">
+            <a href="https://instagram.com/tech.dome" target="_blank" rel="noopener noreferrer" className="ins-ic mr-3 black-text">
               <MDBIcon fab icon="instagram" />
             </a>
-            <a href="#!" className="yt-ic mr-3 black-text">
+            <a href="https://www.youtube.com/channel/UCgpGjY3Rd97l53n8r_sSwBQ" target="_blank" rel="noopener noreferrer" className="yt-ic mr-3 black-text">
               <MDBIcon fab icon="youtube" />
             </a>
-            <a href="#!" className="git-ic mr-3 black-text">
+            <a href="https://github.com/Tech-Dome" target="_blank" rel="noopener noreferrer" className="git-ic mr-3 black-text">
               <MDBIcon fab icon="github" />
             </a>
             </div>
