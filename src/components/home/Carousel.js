@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView } from
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView } from
 "mdbreact";
 
 const Carousel = () => {
@@ -22,6 +22,10 @@ const Carousel = () => {
                 alt="First slide"
               />
             </MDBView>
+            <MDBCarouselCaption>
+            <h3 className="h3-responsive">Slight Mast</h3>
+            <p>Third text</p>
+          </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
@@ -31,6 +35,10 @@ const Carousel = () => {
                 alt="Second slide"
               />
             </MDBView>
+            <MDBCarouselCaption>
+            <h3 className="h3-responsive">Slight Mast</h3>
+            <p>Third text</p>
+          </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
@@ -40,6 +48,10 @@ const Carousel = () => {
                 alt="Third slide"
               />
             </MDBView>
+            <MDBCarouselCaption>
+            <h3 className="h3-responsive">Slight Mast</h3>
+            <p>Third text</p>
+          </MDBCarouselCaption>
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>

@@ -3,12 +3,21 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from
 
 const ContactPage = () => {
   return (
-    <section className="contact-section my-5">
-      <MDBCard>
+    <MDBCard className="my-5 px-1 pb-5 text-center">
+      <MDBCardBody>
+          <h2 className="h1-responsive font-weight-bold my-5">
+            Our amazing team
+          </h2>
+          <p className="grey-text w-responsive mx-auto mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+            error amet numquam iure provident voluptate esse quasi, veritatis
+            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+          </p>
+        </MDBCardBody>
         <MDBRow>
           <MDBCol lg="8">
             <MDBCardBody className="form">
-              <h3 className="mt-4">
+              <h3 className="mt-4 text-left">
                 <MDBIcon icon="envelope" className="pr-2" />
                 Write to us:
               </h3>
@@ -69,7 +78,7 @@ const ContactPage = () => {
             </MDBCardBody>
           </MDBCol>
           <MDBCol lg="4">
-            <MDBCardBody className="contact text-center h-100 white-text">
+            <MDBCardBody className="contact text-center h-100 black-text">
               <h3 className="my-4 pb-2">Contact information</h3>
               <ul className="text-lg-left list-unstyled ml-4">
                 <li>
@@ -112,7 +121,6 @@ const ContactPage = () => {
           </MDBCol>
         </MDBRow>
       </MDBCard>
-    </section>
   );
 }
 
