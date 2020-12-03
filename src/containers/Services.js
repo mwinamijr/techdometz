@@ -6,13 +6,12 @@ const ServicesPage = () => {
     <MDBCard className="my-5 px-5 pb-5">
       <MDBCardBody>
         <h2 className="h1-responsive font-weight-bold text-center my-5">
-          Recent posts
+          Get proffesional services
         </h2>
         <p className="text-center w-responsive mx-auto mb-5">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
+          We provide the following services at a very low and affordable price.
+          For exta details check out more of our services and get full in detail description
+          on our specific service you need.
         </p>
         <MDBRow>
           <MDBCol lg="5">
@@ -30,26 +29,19 @@ const ServicesPage = () => {
           <MDBCol lg="7">
             <a href="#!" className="green-text">
               <h6 className="font-weight-bold mb-3">
-                <MDBIcon icon="utensils" className="pr-2" />
-                Food
+                <MDBIcon icon="computer" className="pr-2" />
+                Web
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Web development</strong>
             </h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus id quod maxime placeat facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus et aut
-              officiis debitis.
+              We design professional websites at a very low price. Depending on what type of website 
+              you need we will provide it for you at a very short period of time. 
+              Also we will provide for you with 1 year of <strong>Hosting and maintanance for free.</strong> 
             </p>
-            <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 19/08/2018
-            </p>
+            
             <MDBBtn color="success" size="md" className="waves-light ">
               Read more
             </MDBBtn>
@@ -61,27 +53,22 @@ const ServicesPage = () => {
             <a href="#!" className="pink-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="image" className="pr-2" />
-                Lifestyle
+                Video
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Video recording and editing</strong>
             </h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate
-              non provident.
-            </p>
-            <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 14/08/2018
+              Videos for different events can provide memories and good records. We provide this service to 
+              all who need them at different qualities depending on your needs. We provide <strong>Video recording</strong> 
+              for different events such as <em>Wedding</em>, <em>Graduations</em>, <em>Sports events</em> and
+                many others. We also provide 
+              <strong>Video editing</strong> service at professional level using world wide used softwares to give you
+              the greatest quality we can provide. <strong><em>For more details click the button below to know more ...</em></strong>
             </p>
             <MDBBtn
-              color="pink"
+              color="red"
               size="md"
               className="mb-lg-0 mb-4 waves-light"
             >
@@ -119,28 +106,60 @@ const ServicesPage = () => {
             <a href="#!" className="indigo-text">
               <h6 className="font-weight-bold mb-3">
                 <MDBIcon icon="suitcase" className="pr-2" />
-                Food
+                VFX
               </h6>
             </a>
             <h3 className="font-weight-bold mb-3 p-0">
-              <strong>Title of the news</strong>
+              <strong>Visual effects</strong>
             </h3>
             <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia
-              sit amet.
+              Get latest effects for your videos so that you can use them on your own videos.
+              Also with professional video editing we provide more to reach the maximum satisfaction 
+              of our customers. 
             </p>
-            <p>
-              by
-              <a href="#!">
-                <strong>Carine Fox</strong>
-              </a>
-              , 11/08/2018
-            </p>
-            <MDBBtn color="indigo" size="md" className="waves-light ">
+
+            <MDBBtn color="green" size="md" className="waves-light ">
               Read more
             </MDBBtn>
+          </MDBCol>
+        </MDBRow>
+        <hr className="my-5" />
+        <MDBRow>
+          <MDBCol lg="7">
+            <a href="#!" className="pink-text">
+              <h6 className="font-weight-bold mb-3">
+                <MDBIcon icon="image" className="pr-2" />
+                3D
+              </h6>
+            </a>
+            <h3 className="font-weight-bold mb-3 p-0">
+              <strong>3D design</strong>
+            </h3>
+            <p>
+            We provide 3D modeling of architcture buildings, car designs and environment creation. 
+              3D modeling and designing of different items from smaller ones like a pen to the 
+              larger ones like the whole world.
+              <strong><em>For more details click the button below to know more ...</em></strong>
+            </p>
+            <MDBBtn
+              color="red"
+              size="md"
+              className="mb-lg-0 mb-4 waves-light"
+            >
+              Read more
+            </MDBBtn>
+          </MDBCol>
+          <MDBCol lg="5">
+            <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+              <img
+                className="img-fluid"
+                src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
+                alt=""
+              />
+              <a href="#!">
+                <MDBMask overlay="white-slight" />
+              </a>
+            </MDBView>
           </MDBCol>
         </MDBRow>
       </MDBCardBody>

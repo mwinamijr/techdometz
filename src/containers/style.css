@@ -1,0 +1,7 @@
+.serviceImage {
+	background: rgb(100, 101, 109) none repeat scroll 0% 0%; 
+	max-height: 75vh; 
+	max-width: calc(112.5vh); 
+	min-height: 300px; 
+	min-width: calc(450px);
+}
