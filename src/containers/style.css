@@ -1,7 +1,3 @@
-.serviceImage {
-	background: rgb(100, 101, 109) none repeat scroll 0% 0%; 
-	max-height: 75vh; 
-	max-width: calc(112.5vh); 
-	min-height: 300px; 
-	min-width: calc(450px);
-}
+.backgroundPage {
+	background: rgb(2,0,36);
+	background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(65,9,121,1) 13%, rgba(223,224,227,1) 49%, rgba(5,175,170,1) 84%, rgba(0,212,255,1) 100%);}
