@@ -40,9 +40,10 @@ const ServicesPage = () => {
               We design professional websites at a very low price. Depending on what type of website 
               you need we will provide it for you at a very short period of time. 
               Also we will provide for you with 1 year of <strong>Hosting and maintanance for free.</strong> 
+              <br /> <strong><em>For more details click the button below to know more ...</em></strong>
             </p>
             
-            <MDBBtn color="success" size="md" className="waves-light ">
+            <MDBBtn color="green" size="md" className="waves-light ">
               Read more
             </MDBBtn>
           </MDBCol>
@@ -60,12 +61,13 @@ const ServicesPage = () => {
               <strong>Video recording and editing</strong>
             </h3>
             <p>
-              Videos for different events can provide memories and good records. We provide this service to 
-              all who need them at different qualities depending on your needs. We provide <strong>Video recording</strong> 
+              We provide this service to all who need them at different qualities depending on your needs. 
+              We provide <strong>Video recording </strong>  
               for different events such as <em>Wedding</em>, <em>Graduations</em>, <em>Sports events</em> and
                 many others. We also provide 
-              <strong>Video editing</strong> service at professional level using world wide used softwares to give you
-              the greatest quality we can provide. <strong><em>For more details click the button below to know more ...</em></strong>
+              <strong> Video editing </strong> service at professional level using world wide used softwares to give you
+              the greatest quality we can provide. 
+              <br /> <strong><em>For more details click the button below to know more ...</em></strong>
             </p>
             <MDBBtn
               color="red"
@@ -116,6 +118,7 @@ const ServicesPage = () => {
               Get latest effects for your videos so that you can use them on your own videos.
               Also with professional video editing we provide more to reach the maximum satisfaction 
               of our customers. 
+              <br /> <strong><em>For more details click the button below to know more ...</em></strong>
             </p>
 
             <MDBBtn color="green" size="md" className="waves-light ">
@@ -139,7 +142,7 @@ const ServicesPage = () => {
             We provide 3D modeling of architcture buildings, car designs and environment creation. 
               3D modeling and designing of different items from smaller ones like a pen to the 
               larger ones like the whole world.
-              <strong><em>For more details click the button below to know more ...</em></strong>
+              <br /> <strong><em>For more details click the button below to know more ...</em></strong>
             </p>
             <MDBBtn
               color="red"

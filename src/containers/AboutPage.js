@@ -5,15 +5,65 @@ const AboutPage = () => {
   return (
       <section className="text-center my-5">
         <h2 className="h1-responsive font-weight-bold my-5">
-          Why is it so great?
+          Who are we?
         </h2>
-        <p className="lead grey-text w-responsive mx-auto mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam.
+        <p className="lead black-text w-responsive mx-auto mb-5">
+          Tech Dome is the company which is resposible to provide latest technology solutions
+           to the society. We want to help anyone in need of our services at a professional 
+           level and very low price.
         </p>
 
 				<MDBRow>
+          <MDBCol lg="7">
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">Education</h5>
+                <p>
+                  Education is the backbone of obtaining knowledge on daily basis. WE are proud to be one of 
+                  those who helps in this catergory. In order to boost the knowledge searching technology is the 
+                  best to go with in this 21<sup>st</sup> century. 
+                </p>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">Technology</h5>
+                <p className="">
+                  Education combined with technology becomes much better in all ways. Hence 
+                  we are ready to provide you with the best of technology to maximize 
+                  education level and give all the chance to get the best of it.
+                </p>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">Effects</h5>
+                <p className="">
+                  For more visual and work, effects increases the taste of the technology and education being provided 
+                  at much more 
+                </p>
+              </MDBCol>
+            </MDBRow>
+          </MDBCol>
+          <MDBCol lg="5" className="text-center text-lg-left">
+            <img
+              className="img-fluid"
+              src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              alt=""
+            />
+          </MDBCol>
+        </MDBRow>
+				<br />
+        <MDBRow>
           <MDBCol lg="5" className="text-center text-lg-left">
             <img
               className="img-fluid"
@@ -27,11 +77,11 @@ const AboutPage = () => {
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Safety</h5>
-                <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                  enim ad minima veniam, quis nostrum exercitationem ullam.
-                  Reprehenderit maiores aperiam assumenda deleniti hic.
+                <h5 className="font-weight-bold mb-3">Education</h5>
+                <p>
+                  Education is the backbone of obtaining knowledge on daily basis. WE are proud to be one of 
+                  those who helps in this catergory. In order to boost the knowledge searching technology is the 
+                  best to go with in this 21<sup>st</sup> century. 
                 </p>
               </MDBCol>
             </MDBRow>
@@ -41,10 +91,10 @@ const AboutPage = () => {
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
                 <h5 className="font-weight-bold mb-3">Technology</h5>
-                <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                  enim ad minima veniam, quis nostrum exercitationem ullam.
-                  Reprehenderit maiores aperiam assumenda deleniti hic.
+                <p className="">
+                  Education combined with technology becomes much better in all ways. Hence 
+                  we are ready to provide you with the best of technology to maximize 
+                  education level and give all the chance to get the best of it.
                 </p>
               </MDBCol>
             </MDBRow>
@@ -53,42 +103,15 @@ const AboutPage = () => {
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Finance</h5>
-                <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                  enim ad minima veniam, quis nostrum exercitationem ullam.
-                  Reprehenderit maiores aperiam assumenda deleniti hic.
+                <h5 className="font-weight-bold mb-3">Effects</h5>
+                <p className="">
+                  For more visual and work, effects increases the taste of the technology and education being provided 
+                  at much more 
                 </p>
               </MDBCol>
             </MDBRow>
           </MDBCol>
-        </MDBRow>
-				<br />
-        <MDBRow>
-          <MDBCol md="4">
-            <MDBIcon icon="chart-area" size="3x" className="red-text" />
-            <h5 className="font-weight-bold my-4">Analytics</h5>
-            <p className="grey-text mb-md-0 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
-          </MDBCol>
-          <MDBCol md="4">
-            <MDBIcon icon="book" size="3x" className="cyan-text" />
-            <h5 className="font-weight-bold my-4">Tutorials</h5>
-            <p className="grey-text mb-md-0 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
-          </MDBCol>
-          <MDBCol md="4">
-            <MDBIcon far icon="comments" size="3x" className="orange-text" />
-            <h5 className="font-weight-bold my-4">Support</h5>
-            <p className="grey-text mb-md-0 mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit maiores aperiam minima assumenda deleniti hic.
-            </p>
-          </MDBCol>
+          
         </MDBRow>
       </section>
   );
