@@ -6,12 +6,11 @@ const ContactPage = () => {
     <MDBCard className="my-5 px-1 pb-5 text-center">
       <MDBCardBody>
           <h2 className="h1-responsive font-weight-bold my-5">
-            Our amazing team
+            Contact Us!
           </h2>
           <p className="grey-text w-responsive mx-auto mb-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            For any questions regarding our services don't hesitate to contact us for 
+            futher details. Leave your message using the form below.
           </p>
         </MDBCardBody>
         <MDBRow>
@@ -51,15 +50,6 @@ const ContactPage = () => {
                     />
                   </div>
                 </MDBCol>
-                <MDBCol md="6">
-                  <div className="md-form mb-0">
-                    <MDBInput
-                      type="text"
-                      id="form-contact-company"
-                      label="Your company"
-                    />
-                  </div>
-                </MDBCol>
               </MDBRow>
               <MDBRow>
                 <MDBCol md="12">
@@ -84,18 +74,18 @@ const ContactPage = () => {
                 <li>
                   <p>
                     <MDBIcon icon="map-marker-alt" className="pr-2" />
-                    New York, 94126 USA
+                    P.O Box 507, Babati - Manyara
                   </p>
                 </li>
                 <li>
                   <p>
-                    <MDBIcon icon="phone" className="pr-2" />+ 01 234 567 89
+                    <MDBIcon icon="phone" className="pr-2" />+ 255 686 883 601
                   </p>
                 </li>
                 <li>
                   <p>
                     <MDBIcon icon="envelope" className="pr-2" />
-                    contact@example.com
+                    techdometz@gmail.com
                   </p>
                 </li>
               </ul>
