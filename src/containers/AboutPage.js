@@ -46,7 +46,7 @@ const AboutPage = () => {
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Effects</h5>
+                <h5 className="font-weight-bold mb-3">Videos</h5>
                 <p className="">
                   For more visual and work, effects increases the taste of the technology and education being provided 
                   at much more 
@@ -77,7 +77,7 @@ const AboutPage = () => {
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Education</h5>
+                <h5 className="font-weight-bold mb-3">Photography</h5>
                 <p>
                   Education is the backbone of obtaining knowledge on daily basis. WE are proud to be one of 
                   those who helps in this catergory. In order to boost the knowledge searching technology is the 
@@ -90,7 +90,7 @@ const AboutPage = () => {
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
               </MDBCol>
               <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Technology</h5>
+                <h5 className="font-weight-bold mb-3">Video editing</h5>
                 <p className="">
                   Education combined with technology becomes much better in all ways. Hence 
                   we are ready to provide you with the best of technology to maximize 
@@ -111,7 +111,56 @@ const AboutPage = () => {
               </MDBCol>
             </MDBRow>
           </MDBCol>
-          
+        </MDBRow>
+        <br />
+        <MDBRow>
+          <MDBCol lg="7">
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">3D design</h5>
+                <p>
+                  Education is the backbone of obtaining knowledge on daily basis. WE are proud to be one of 
+                  those who helps in this catergory. In order to boost the knowledge searching technology is the 
+                  best to go with in this 21<sup>st</sup> century. 
+                </p>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">Visual Effects</h5>
+                <p className="">
+                  Education combined with technology becomes much better in all ways. Hence 
+                  we are ready to provide you with the best of technology to maximize 
+                  education level and give all the chance to get the best of it.
+                </p>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow className="mb-3">
+              <MDBCol size="1">
+                <MDBIcon icon="share" size="lg" className="indigo-text" />
+              </MDBCol>
+              <MDBCol xl="10" md="11" size="10">
+                <h5 className="font-weight-bold mb-3">Videos</h5>
+                <p className="">
+                  For more visual and work, effects increases the taste of the technology and education being provided 
+                  at much more 
+                </p>
+              </MDBCol>
+            </MDBRow>
+          </MDBCol>
+          <MDBCol lg="5" className="text-center text-lg-left">
+            <img
+              className="img-fluid"
+              src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              alt=""
+            />
+          </MDBCol>
         </MDBRow>
       </section>
   );

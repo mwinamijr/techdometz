@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 
 const Team = () => {
@@ -16,118 +17,46 @@ const Team = () => {
 
           <MDBCardBody cascade className='text-center'>
             <MDBCardTitle className='card-title'>
-              <strong>Billy Coleman</strong>
+              <strong>Athumani Mwinami</strong>
             </MDBCardTitle>
 
             <p className='font-weight-bold blue-text'>Wev developer</p>
 
             <MDBCardText>
-              Sed ut perspiciatis unde omnis iste natus sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.{' '}
+              I am a web developer using my favorite languages (Python and JavaScript).
+               I also do video editing, 3D modelling and Visual effexts (VFX){' '}
             </MDBCardText>
 
             <MDBCol md='12' className='d-flex justify-content-center'>
+            <a href="https://facebook.com/techdome1" target="_blank" rel="noopener noreferrer">
               <MDBBtn rounded floating color='fb'>
+              
                 <MDBIcon size='lg' fab icon='facebook-f'></MDBIcon>
+              
               </MDBBtn>
+              </a>
 
               <MDBBtn rounded floating color='tw'>
+              <Link to='https://www.twitter.com/mwinamijr'>
                 <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
+                </Link>
               </MDBBtn>
 
               <MDBBtn rounded floating color='ins'>
+              <Link to='https://www.instagram.com/mwinamijr'>
                 <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
+                </Link>
               </MDBBtn>
               <MDBBtn rounded floating color='git'>
+              <Link to='https://www.github.com/mwinamijr'>
                 <MDBIcon size='lg' fab icon='github'></MDBIcon>
+                </Link>
               </MDBBtn>
             </MDBCol>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-      <MDBCol md='4'>
-        <MDBCard>
-          <MDBCardImage
-            hover
-            overlay='white-light'
-            className='card-img-top'
-            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
-            alt='man'
-          />
-
-          <MDBCardBody cascade className='text-center'>
-            <MDBCardTitle className='card-title'>
-              <strong>Billy Coleman</strong>
-            </MDBCardTitle>
-
-            <p className='font-weight-bold blue-text'>Wev developer</p>
-
-            <MDBCardText>
-              Sed ut perspiciatis unde omnis iste natus sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.{' '}
-            </MDBCardText>
-
-            <MDBCol md='12' className='d-flex justify-content-center'>
-              <MDBBtn rounded floating color='fb'>
-                <MDBIcon size='lg' fab icon='facebook-f'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded floating color='tw'>
-                <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded floating color='ins'>
-                <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
-              </MDBBtn>
-              <MDBBtn rounded floating color='git'>
-                <MDBIcon size='lg' fab icon='github'></MDBIcon>
-              </MDBBtn>
-            </MDBCol>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-
-      <MDBCol md='4'>
-        <MDBCard>
-          <MDBCardImage
-            hover
-            overlay='white-light'
-            className='card-img-top'
-            src='https://mdbootstrap.com/img/Photos/Others/men.jpg'
-            alt='man'
-          />
-
-          <MDBCardBody cascade className='text-center'>
-            <MDBCardTitle className='card-title'>
-              <strong>Billy Coleman</strong>
-            </MDBCardTitle>
-
-            <p className='font-weight-bold blue-text'>Wev developer</p>
-
-            <MDBCardText>
-              Sed ut perspiciatis unde omnis iste natus sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.{' '}
-            </MDBCardText>
-
-            <MDBCol md='12' className='d-flex justify-content-center'>
-              <MDBBtn rounded floating color='fb'>
-                <MDBIcon size='lg' fab icon='facebook-f'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded floating color='tw'>
-                <MDBIcon size='lg' fab icon='twitter'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded floating color='ins'>
-                <MDBIcon size='lg' fab icon='instagram'></MDBIcon>
-              </MDBBtn>
-              <MDBBtn rounded floating color='git'>
-                <MDBIcon size='lg' fab icon='github'></MDBIcon>
-              </MDBBtn>
-            </MDBCol>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
+      
     </MDBRow>
   )
 }

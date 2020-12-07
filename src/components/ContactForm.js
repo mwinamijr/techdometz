@@ -84,6 +84,11 @@ const ContactPage = () => {
                 </li>
                 <li>
                   <p>
+                    <MDBIcon icon="phone" className="pr-2" />+ 255 625 799 380
+                  </p>
+                </li>
+                <li>
+                  <p>
                     <MDBIcon icon="envelope" className="pr-2" />
                     techdometz@gmail.com
                   </p>
