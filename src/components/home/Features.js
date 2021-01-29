@@ -5,12 +5,11 @@ const FeaturesPage = () => {
   return (
     <section className="my-5">
         <h2 className="h1-responsive font-weight-bold text-center my-5">
-          Why is it so great?
+          WELCOME : أهلا بك : KARIBU
         </h2>
         <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam.
+          You have arrived at your destination for Tech Solutions. <br />
+          How can we help you?
         </p>
 
         <MDBRow>
@@ -24,11 +23,9 @@ const FeaturesPage = () => {
                 />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">International</h5>
+                <h5 className="font-weight-bold mb-3">Web development</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  Get your professional website at very low and affordable price.
                 </p>
               </MDBCol>
             </MDBRow>
@@ -37,11 +34,9 @@ const FeaturesPage = () => {
                 <MDBIcon icon="flask" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">Experimental</h5>
+                <h5 className="font-weight-bold mb-3">Photography</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  High quality photographs for your bussiness or life events like weddings and graduations.
                 </p>
               </MDBCol>
             </MDBRow>
@@ -50,11 +45,9 @@ const FeaturesPage = () => {
                 <MDBIcon icon="glass-martini" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">Relaxing</h5>
+                <h5 className="font-weight-bold mb-3">Graphics Design</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  Logo design, Graphics, Typography
                 </p>
               </MDBCol>
             </MDBRow>
@@ -72,11 +65,9 @@ const FeaturesPage = () => {
                 <MDBIcon icon="heart" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">Beloved</h5>
+                <h5 className="font-weight-bold mb-3">3D design</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  3D modelling with powerful free software Blender
                 </p>
               </MDBCol>
             </MDBRow>
@@ -85,11 +76,9 @@ const FeaturesPage = () => {
                 <MDBIcon icon="bolt" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">Rapid</h5>
+                <h5 className="font-weight-bold mb-3">VFX</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  Visual effects for videos and photography.
                 </p>
               </MDBCol>
             </MDBRow>
@@ -98,11 +87,9 @@ const FeaturesPage = () => {
                 <MDBIcon icon="magic" size="2x" className="deep-purple-text" />
               </MDBCol>
               <MDBCol size="10">
-                <h5 className="font-weight-bold mb-3">Magical</h5>
+                <h5 className="font-weight-bold mb-3">Animations</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit maiores nam, aperiam minima assumenda deleniti
-                  hic.
+                  Creative and educational animations
                 </p>
               </MDBCol>
             </MDBRow>

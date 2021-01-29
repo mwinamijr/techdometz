@@ -30,9 +30,9 @@ const Team = () => {
             <MDBCol md='12' className='d-flex justify-content-center'>
             <a href="https://facebook.com/techdome1" target="_blank" rel="noopener noreferrer">
               <MDBBtn rounded floating color='fb'>
-              
+              <Link to='https://www.facebook.com/mwinamijr'>
                 <MDBIcon size='lg' fab icon='facebook-f'></MDBIcon>
-              
+                </Link>
               </MDBBtn>
               </a>
 

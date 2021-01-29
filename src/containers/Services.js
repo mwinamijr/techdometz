@@ -21,9 +21,9 @@ const ServicesPage = () => {
                 src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
                 alt=""
               />
-              <a href="#!">
+              
                 <MDBMask overlay="white-slight" />
-              </a>
+              
             </MDBView>
           </MDBCol>
           <MDBCol lg="7">
