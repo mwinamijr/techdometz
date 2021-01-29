@@ -1,4 +1,5 @@
 from pathlib import Path
+from decouple import config
 import django_heroku
 import os
 
@@ -10,8 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i=(6-n121^fa_idi40a7#2s!w#t8h%8&&_wz0=n5cu+w7dl_)y'
 
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -27,6 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'management',
 
     'rest_framework',
     'corsheaders',
@@ -136,3 +140,17 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 django_heroku.settings(locals())
+
+
+#LOGIN_URL = 'login'
+
+#LOGIN_REDIRECT_URL = 'blogu'
+
+
+DEFAULT_FROM_EMAIL = 'techdometz@gmail.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
