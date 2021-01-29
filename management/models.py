@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+class Carousel(models.Model):
+    title = models.CharField(max_length=100, blank=True, null=True)
+    description = models.TextField()
+    image = models.ImageField(name="carousels", to="carousel")
+
+    def __str__(self):
+        return self.title
