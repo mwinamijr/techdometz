@@ -7,3 +7,11 @@ class Carousel(models.Model):
 
     def __str__(self):
         return self.title
+
+class Service(models.Model):
+    title = models.CharField(max_length=100, blank=True, null=True)
+    description = models.TextField()
+    image = models.ImageField(name="srvices", upload_to="services")
+
+    def __str__(self):
+        return self.title
