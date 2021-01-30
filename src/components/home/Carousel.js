@@ -1,10 +1,26 @@
 import React from "react";
+import axios from "axios";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView } from
 "mdbreact";
 
-const Carousel = () => {
-  return (
-    <div>
+class Carousel extends React.Component {
+  state = {
+    images: []
+  };
+
+  componentDidMount() {
+		axios.get("http://127.0.0.1:8000/carousel/")
+		.then(res => {
+      this.setState({
+        images: res.data
+			});
+			console.log(res.data)
+		});
+	}
+	
+  render() {
+    return (
+      <div>
       <hr />
       <MDBCarousel
         activeItem={1}
@@ -18,14 +34,14 @@ const Carousel = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src={this.props}
                 alt="First slide"
               />
             </MDBView>
             <MDBCarouselCaption>
             <h3 className="h3-responsive">Slight Mast</h3>
             <p>Third text</p>
-          </MDBCarouselCaption>
+            </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
@@ -56,7 +72,9 @@ const Carousel = () => {
         </MDBCarouselInner>
       </MDBCarousel>
     </div>
-  );
+    );
+  }
 }
+
 
 export default Carousel;
