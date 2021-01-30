@@ -5,9 +5,9 @@ from .models import Carousel, Service
 class CarouselSerializer(serializers.ModelSerializer):
     class Meta:
         model = Carousel
-        fields = ['id', 'title', 'description', 'image']
+        fields = "__all__"
 
 class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Service
-        fields = ['id', 'title', 'description', 'image']
+        fields = "__all__"
