@@ -29,45 +29,21 @@ class Carousel extends React.Component {
         className="z-depth-1"
       >
         <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src={this.props}
-                alt="First slide"
-              />
-            </MDBView>
-            <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
-                alt="Second slide"
-              />
-            </MDBView>
-            <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
-          </MDBCarouselCaption>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-                alt="Third slide"
-              />
-            </MDBView>
-            <MDBCarouselCaption>
-            <h3 className="h3-responsive">Slight Mast</h3>
-            <p>Third text</p>
-          </MDBCarouselCaption>
-          </MDBCarouselItem>
+          {this.state.images.map(image => (
+            <MDBCarouselItem itemId={image.id}>
+              <MDBView>
+                <img
+                  className="d-block w-100"
+                  src={image.photo}
+                  alt={image.title}
+                />
+              </MDBView>
+              <MDBCarouselCaption>
+              <h3 className="h3-responsive">{image.title}</h3>
+              <p>{image.description}</p>
+              </MDBCarouselCaption>
+            </MDBCarouselItem>
+          ))}
         </MDBCarouselInner>
       </MDBCarousel>
     </div>
