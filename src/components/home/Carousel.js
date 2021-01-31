@@ -14,7 +14,6 @@ class Carousel extends React.Component {
       this.setState({
         images: res.data
 			});
-			console.log(res.data)
 		});
 	}
 	

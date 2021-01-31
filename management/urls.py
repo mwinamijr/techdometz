@@ -7,4 +7,3 @@ urlpatterns = [
     path('carousel/<int:pk>/', CarouselDetail.as_view()),
 ]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
