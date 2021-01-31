@@ -51,6 +51,16 @@ class CarouselDetail(APIView):
         carousel.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+class CarouselViewSet(viewsets.ModelViewSet):
+    """
+    This viewset automatically provides `list`, `create`, `retrieve`,
+    `update` and `destroy` actions.
+
+    Additionally we also provide an extra `highlight` action.
+    """
+    queryset = Carousel.objects.all()
+    serializer_class = CarouselSerializer
+    
 class ServiceViewSet(viewsets.ModelViewSet):
     """
     This viewset automatically provides `list`, `create`, `retrieve`,
