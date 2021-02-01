@@ -18,7 +18,7 @@ const ServicesPage = () => {
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                src="http://127.0.0.1:8000/media/services/webdesign_ALGwRwB.png"
                 alt=""
               />
               
@@ -81,7 +81,7 @@ const ServicesPage = () => {
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg"
+                src="http://127.0.0.1:8000/media/services/video.png"
                 alt=""
               />
               <a href="#!">

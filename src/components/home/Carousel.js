@@ -29,8 +29,8 @@ class Carousel extends React.Component {
         className="z-depth-1"
       >
         <MDBCarouselInner>
-          {this.state.images.map(image => (
-            <MDBCarouselItem itemId={image.id}>
+          {this.state.images.map((image, index) => (
+            <MDBCarouselItem key={index} itemId={image.id}>
               <MDBView>
                 <img
                   className="d-block w-100"

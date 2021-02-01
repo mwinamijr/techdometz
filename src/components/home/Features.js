@@ -55,7 +55,7 @@ const FeaturesPage = () => {
           <MDBCol md="4" className="text-name">
             <img
               className="img-fluid"
-              src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png"
+              src="http://127.0.0.1:8000/media/services/home.png"
               alt=""
             />
           </MDBCol>

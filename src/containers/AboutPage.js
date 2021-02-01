@@ -61,7 +61,7 @@ const AboutPage = () => {
           <MDBCol lg="5" className="text-center text-lg-left">
             <img
               className="img-fluid"
-              src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              src="http://127.0.0.1:8000/media/services/tev.png"
               alt=""
             />
           </MDBCol>
@@ -71,7 +71,7 @@ const AboutPage = () => {
           <MDBCol lg="5" className="text-center text-lg-left">
             <img
               className="img-fluid"
-              src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              src="http://127.0.0.1:8000/media/services/pvve.png"
               alt=""
             />
           </MDBCol>
@@ -160,7 +160,7 @@ const AboutPage = () => {
           <MDBCol lg="5" className="text-center text-lg-left">
             <img
               className="img-fluid"
-              src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
+              src="http://127.0.0.1:8000/media/services/3vfx.png"
               alt=""
             />
           </MDBCol>
