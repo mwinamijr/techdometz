@@ -5,7 +5,7 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 const Team = () => {
   return (
     <MDBRow>
-      <MDBCol md='4'>
+      <MDBCol md='6'>
         <MDBCard>
           <MDBCardImage
             hover

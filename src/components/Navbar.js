@@ -18,7 +18,8 @@ render() {
     <Router>
       <div>
       <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
-          <Navbar.Brand href="/">Tech Dome</Navbar.Brand>
+        <div className="container">
+          <Navbar.Brand href="/">Tech Dome tz</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
@@ -29,26 +30,27 @@ render() {
             <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <div>
-            <a href="https://facebook.com/techdome1" target="_blank" rel="noopener noreferrer" className="fb-ic mr-3 black-text">
+            <a href="https://facebook.com/techdometz" target="_blank" rel="noopener noreferrer" className="fb-ic mr-3 black-text">
               <MDBIcon fab icon="facebook-f" />
             </a>
-            <a href="https://twitter.com/techdome1" target="_blank" rel="noopener noreferrer" className="tw-ic mr-3 black-text">
+            <a href="https://twitter.com/techdometz" target="_blank" rel="noopener noreferrer" className="tw-ic mr-3 black-text">
               <MDBIcon fab icon="twitter" />
             </a>
             <a href="#!" className="li-ic mr-3 black-text">
               <MDBIcon fab icon="linkedin-in" />
             </a>
-            <a href="https://instagram.com/tech.dome" target="_blank" rel="noopener noreferrer" className="ins-ic mr-3 black-text">
+            <a href="https://instagram.com/techdometz" target="_blank" rel="noopener noreferrer" className="ins-ic mr-3 black-text">
               <MDBIcon fab icon="instagram" />
             </a>
-            <a href="https://www.youtube.com/channel/UCgpGjY3Rd97l53n8r_sSwBQ" target="_blank" rel="noopener noreferrer" className="yt-ic mr-3 black-text">
+            <a href="https://www.youtube.com/techdometz" target="_blank" rel="noopener noreferrer" className="yt-ic mr-3 black-text">
               <MDBIcon fab icon="youtube" />
             </a>
-            <a href="https://github.com/Tech-Dome" target="_blank" rel="noopener noreferrer" className="git-ic mr-3 black-text">
+            <a href="https://github.com/Tech-Dome-tz" target="_blank" rel="noopener noreferrer" className="git-ic mr-3 black-text">
               <MDBIcon fab icon="github" />
             </a>
             </div>
           </Navbar.Collapse>
+          </div>
         </Navbar>
 
       </div>

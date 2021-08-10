@@ -15,7 +15,7 @@ const AboutPage = () => {
         </p>
 
 				<MDBRow className="container">
-          <MDBCol lg="7">
+          <MDBCol>
             <MDBRow className="mb-3">
               <MDBCol size="1">
                 <MDBIcon icon="share" size="lg" className="indigo-text" />
@@ -57,112 +57,6 @@ const AboutPage = () => {
                 </p>
               </MDBCol>
             </MDBRow>
-          </MDBCol>
-          <MDBCol lg="5" className="text-center text-lg-left">
-            <img
-              className="img-fluid"
-              src="http://127.0.0.1:8000/media/services/tev.png"
-              alt=""
-            />
-          </MDBCol>
-        </MDBRow>
-				<br />
-        <MDBRow className="container">
-          <MDBCol lg="5" className="text-center text-lg-left">
-            <img
-              className="img-fluid"
-              src="http://127.0.0.1:8000/media/services/pvve.png"
-              alt=""
-            />
-          </MDBCol>
-          <MDBCol lg="7">
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Photography</h5>
-                <p>
-                  Get high quality photographs for your personal or professional uses. Also we provide 
-                  photo editing using World standard tools such as Adobe suite and free software GIMP 
-                </p>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Video editing</h5>
-                <p className="">
-                  Production of many videos on daily basis requires video editing skills for your daily production of videos.
-                   Since we use this for our own videos production, we providethis service to other clients for personal and 
-                   professional uses. (Weddings, graduation or any other event)
-                </p>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Effects</h5>
-                <p className="">
-                  For more visual and graphics,we create our own effects to increases the taste of the technology in our videos and photographs.
-                   Get yours too!
-                </p>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
-        </MDBRow>
-        <br />
-        <MDBRow className="container">
-          <MDBCol lg="7">
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">3D design</h5>
-                <p>
-                  Blender is a free software for 3D designs and am using it for every 3D modeling am doing whether is for my own projects 
-                  or any professional work. 
-                </p>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Visual Effects</h5>
-                <p className="">
-                Blender is a free software for 3D designs, modelling, Sculpting, animations and other fuctionalities. 
-                Am using it for every VFX am creating whether is for my own projects 
-                  or any professional work.
-                </p>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="1">
-                <MDBIcon icon="share" size="lg" className="indigo-text" />
-              </MDBCol>
-              <MDBCol xl="10" md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Animation</h5>
-                <p className="">
-                Blender is a free software for 3D designs, modelling, Sculpting, animations and other fuctionalities. 
-                Am using it for every animations am doing whether is for my own projects 
-                  or any professional work.
-                </p>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
-          <MDBCol lg="5" className="text-center text-lg-left">
-            <img
-              className="img-fluid"
-              src="http://127.0.0.1:8000/media/services/3vfx.png"
-              alt=""
-            />
           </MDBCol>
         </MDBRow>
       </section>

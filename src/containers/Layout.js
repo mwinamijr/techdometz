@@ -7,7 +7,7 @@ import './style.css';
 
 const Layout = (props) =>{
     return(
-        <div className="mt-4">
+        <div className="pt-4">
             <NavbarPage />
 	            { props.children }
             <FooterPage />

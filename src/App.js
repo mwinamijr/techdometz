@@ -10,7 +10,7 @@ function App() {
   return (
   	<Router>
 	    <div className="App">
-	      <div className="container">
+	      <div className="pl-5 pr-5">
 	        <Layout> 
 	        	<BaseRouter />
 	        </Layout>
