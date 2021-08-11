@@ -10,7 +10,7 @@ const Home = () =>{
               <p className="lead font-weight-normal">
                 Tunakupa huduma na taarifa zote za kiteknolojia katika kiganja chako.
               </p>
-              <a className="btn btn-outline-secondary" href="#">Ona zaidi</a>
+              <Link className="btn btn-outline-secondary" to="/services">Ona zaidi</Link>
             </div>
             <div className="product-device shadow-sm d-none d-md-block"></div>
             <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
