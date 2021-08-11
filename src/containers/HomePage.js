@@ -1,5 +1,6 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
+import { Link } from "react-router-dom";
 
 const Home = () =>{
     return(
