@@ -6,17 +6,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from './containers/Layout';
 import BaseRouter from "./routes";
 
+import SideBar from './screens/hisms/Sidebar'
+
+
+
 function App() {
+  
+
   return (
-  	<Router>
-	    <div className="App">
-	      <div className="pl-5 pr-5">
-	        <Layout> 
-	        	<BaseRouter />
-	        </Layout>
-	      </div>
-	    </div>
-	  </Router>
+    <Router>
+      <Header />
+      <main className="py-3 lead">
+        <Container>
+          <Route path='/' component={HomeScreen} exact /> {}
+          <Route path='/services' /> {}
+          <Route path='/about' /> {}
+          <Route path='/developers' /> {}
+          <Route path='/contact' /> {}
+        </Container>
+      </main>
+      <Footer />
+    </Router
+
+
   );
 }
 
