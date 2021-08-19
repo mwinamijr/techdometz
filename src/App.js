@@ -3,13 +3,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from "react-bootstrap";
 
-import About from '../containers/AboutPage';
-import Developers from '../containers/Developers';
-import Services from '../containers/Services';
-import Home from '../containers/HomePage';
-import Contact from '../components/ContactForm';
-
-
+import About from './containers/AboutPage';
+import Developers from './containers/Developers';
+import Services from './containers/Services';
+import Home from './containers/HomePage';
+import Contact from './components/ContactForm';
+import Header from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   
