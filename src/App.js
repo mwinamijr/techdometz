@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from "react-bootstrap";
 
-
-import Layout from './containers/Layout';
-import BaseRouter from "./routes";
-
-import SideBar from './screens/hisms/Sidebar'
+import About from '../containers/AboutPage';
+import Developers from '../containers/Developers';
+import Services from '../containers/Services';
+import Home from '../containers/HomePage';
+import Contact from '../components/ContactForm';
 
 
 
@@ -18,11 +19,11 @@ function App() {
       <Header />
       <main className="py-3 lead">
         <Container>
-          <Route path='/' component={HomeScreen} exact /> {}
-          <Route path='/services' /> {}
-          <Route path='/about' /> {}
-          <Route path='/developers' /> {}
-          <Route path='/contact' /> {}
+          <Route path='/' component={Home} exact /> {}
+          <Route path='/services' component={Services} /> {}
+          <Route path='/about' component={About} /> {}
+          <Route path='/developers' component={Developers} /> {}
+          <Route path='/contact' component={Contact} /> {}
         </Container>
       </main>
       <Footer />
